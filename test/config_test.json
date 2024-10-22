@@ -1,0 +1,41 @@
+{
+    "modulePath": "/dev/cdc-wdm0",
+    "deviceInterfaceName": "wwan0",
+    "session" : {
+        "0": 
+        { 
+            "sessionId": 0,
+            "userName": "ozren",
+            "password": "",
+            "accessString": "internet.ht.hr",
+            "compression": "MBIMCompressionNone",
+            "authProtocol": "MBIMAuthProtocolNone",
+            "ipType": "MBIMContextIPTypeIPv4",
+            "useVlan": false,
+            "vlanName": "vlan.0",
+            "vlanId": 4094,
+            "simPin": 1234,
+            "routeDst": "8.8.8.0",
+            "routeDstPrefixLength": 24
+            }
+        },
+        "1" : 
+        {
+            "sessionId": 1,
+            "userName": "ozren",
+            "password": "",
+            "accessString": "internet.ht.hr",
+            "compression": "MBIMCompressionNone",
+            "authProtocol": "MBIMAuthProtocolNone",
+            "ipType": "MBIMContextIPTypeIPv4",
+            "useVlan": false,
+            "vlanName": "vlan.1",
+            "vlanId": 4094,
+            "simPin": 1234,
+            "route": {
+                "dst": "8.8.8.0",
+                "dstPrefixLength": 24
+            }
+        }
+    }
+}

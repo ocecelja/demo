@@ -1,0 +1,44 @@
+#ifndef LINKMANAGER_CONFIG_H
+#define LINKMANAGER_CONFIG_H
+
+/*****************************************************************************
+ * Project metadata
+ **/
+// Name
+#mesondefine LINKMANAGER_PACKAGE_NAME
+
+// Version
+#mesondefine LINKMANAGER_PACKAGE_MAJOR
+#mesondefine LINKMANAGER_PACKAGE_MINOR
+#mesondefine LINKMANAGER_PACKAGE_PATCH
+#mesondefine LINKMANAGER_PACKAGE_VERSION
+#mesondefine LINKMANAGER_ABI_VERSION
+#mesondefine LINKMANAGER_LIB_VERSION
+
+// URL
+#mesondefine LINKMANAGER_PACKAGE_URL
+
+
+/*****************************************************************************
+ * Options
+ **/
+
+
+/*****************************************************************************
+ * Headers
+ **/
+
+/*****************************************************************************
+ * Symbols
+ **/
+
+
+/*****************************************************************************
+ * Platform checks
+ **/
+
+/*****************************************************************************
+ * User defined build options
+ **/
+
+#endif // guard
